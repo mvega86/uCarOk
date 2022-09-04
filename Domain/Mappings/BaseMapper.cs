@@ -8,8 +8,8 @@ namespace uCarOk.Domain.Mappings
     {
         public BaseMapper()
         {
-            CreateMap<Mechanic, MechanicDTO>();
-            CreateMap<MechanicDTO, Mechanic>();
+            CreateMap<Mechanic, GetMechanicDTO>();
+            CreateMap<AddMechanicDTO, Mechanic>();
         }
     }
 }

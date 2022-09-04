@@ -10,7 +10,7 @@ namespace uCarOk.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Mechanic",
+                name: "Mechanics",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -20,14 +20,14 @@ namespace uCarOk.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Mechanic", x => x.Id);
+                    table.PrimaryKey("PK_Mechanics", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Mechanic");
+                name: "Mechanics");
         }
     }
 }

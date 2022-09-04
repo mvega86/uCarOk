@@ -42,7 +42,7 @@ namespace uCarOk.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Mechanic");
+                    b.ToTable("Mechanics");
                 });
 #pragma warning restore 612, 618
         }

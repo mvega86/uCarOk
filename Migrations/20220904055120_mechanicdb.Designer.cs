@@ -12,7 +12,7 @@ using uCarOk.Data.DataContext;
 namespace uCarOk.Migrations
 {
     [DbContext(typeof(BaseDataContext))]
-    [Migration("20220903063519_mechanicdb")]
+    [Migration("20220904055120_mechanicdb")]
     partial class mechanicdb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,7 +44,7 @@ namespace uCarOk.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Mechanic");
+                    b.ToTable("Mechanics");
                 });
 #pragma warning restore 612, 618
         }

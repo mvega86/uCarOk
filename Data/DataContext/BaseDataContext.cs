@@ -13,6 +13,6 @@ namespace uCarOk.Data.DataContext
         {
         }
 
-        public DbSet<Mechanic> Mechanic { get; set; }
+        public DbSet<Mechanic> Mechanics{ get; set; }
     }
 }
